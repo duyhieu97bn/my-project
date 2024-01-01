@@ -1,0 +1,27 @@
+.header-left-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    .title-blog {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .menu {
+        display: flex;
+
+        .menu-item {
+            text-decoration-line: underline;
+            font-weight: bold;
+            &:hover {
+                text-shadow: 0 2px aqua;
+                cursor: pointer;
+            }
+        }
+        .menu-item+.menu-item {
+            margin-left: 16px;
+        }
+    }
+}

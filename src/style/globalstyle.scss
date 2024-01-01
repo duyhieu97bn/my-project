@@ -1,0 +1,20 @@
+.container {
+    background-color: bisque;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+}
+.btn {
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    min-width: 80px;
+}
+.hover-item {
+    &:hover {
+        // text-shadow: 5px 5px 5px aqua;
+        box-shadow: 0 0 20px aqua;
+        cursor: pointer;
+    }
+}
