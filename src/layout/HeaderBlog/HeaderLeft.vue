@@ -11,18 +11,6 @@ import mixinHeaderLeft from './mixinHeaderLeft';
 import './styleHeaderLeft.scss'
 export default {
     mixins:[mixinHeaderLeft],
-    // data() {
-    //     return {
-    //         menu: ["HOME", "BUY ME A COFFEE", "BADGES"],
-    //         menuSelect: ""
-    //     }
-    // },
-    // methods: {
-    //     selectMenu(data) {
-    //         this.menuSelect = data?? ""
-    //         console.log(this.menuSelect);
-    //     }
-    // }
 }
 </script>
 <style lang="scss" scoped>

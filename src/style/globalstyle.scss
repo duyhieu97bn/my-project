@@ -13,8 +13,7 @@
 }
 .hover-item {
     &:hover {
-        // text-shadow: 5px 5px 5px aqua;
-        box-shadow: 0 0 20px aqua;
+        filter: drop-shadow(0 0 6px aqua);
         cursor: pointer;
     }
 }
